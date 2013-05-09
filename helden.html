@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- UTF-8 //-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		
+		<title>Helden</title>
+
+		<link rel="stylesheet" href="css/Helden.css" type="text/css" />
+		<link rel="stylesheet" href="css/tablesorter.css" type="text/css" />
+		
+		<!-- JQuery //-->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+		<!-- JQuery Core Plugins //-->
+		<script type="text/javascript" src="js/jquery.color/jquery.color.js"></script>
+		<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+
+		<script type="text/javascript" src="js/MyDesign.js"></script>
+
+		<script type="text/javascript" src="js/Held.class.js"></script>
+		<script type="text/javascript" src="js/Eigenschaft.class.js"></script>
+		<script type="text/javascript" src="js/MyXhr.class.js"></script>
+		<script type="text/javascript" src="js/MyHashMap.class.js"></script>
+		<script type="text/javascript" src="js/MyMatrix.js"></script>
+		
+		<script type="text/javascript" src="js/ErrorHandler.js"></script>
+		<script type="text/javascript" src="js/FileHandler.js"></script>
+		<script type="text/javascript" src="js/formular.js"></script>
+
+		<script type="text/javascript" src="js/HeldManager.js"></script>
+		<script type="text/javascript" src="js/EigenschaftManager.js"></script>
+
+		<script type="text/javascript" src="js/HeldenView.plugin.js"></script>
+		<script type="text/javascript" src="js/HeldenEdit.plugin.js"></script>
+		
+
+		<script type="text/javascript">
+			$(document).ready
+			(
+				function()
+				{
+					
+					$("section").each
+					(
+						function()
+						{
+							new tile( $(this) )
+						}
+					);
+					
+
+					$("input").each
+					(
+						function()
+						{
+							new inputfield( $(this) )
+						}
+					);
+					
+					$("form").each
+					(
+						function()
+						{
+							new form( $(this) )
+						}
+					)
+					
+					$(".tablesorter").tablesorter();
+					
+
+				}
+			)
+			
+		</script>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Helden</h1>
+		</header>
+		
+		<section class="held">
+			<header>
+				<h2>Siegfried</h2>
+			</header>
+			<img src="css/Siegfried-2.jpg" height="300" />
+		</section>
+
+		<section class="held">
+			<header>
+				<h2>Beowulf</h2>
+			</header>
+			<img src="css/Beowulf-2.jpg" height="300" />
+		</section>
+
+	</body>
+	
+</html>

@@ -1,0 +1,183 @@
+Phase 1: Recherche
+
+Vorgehensweise Eigenschaften:
+
+1. Figuren suchen, die als "Held" bezeichnet werden (Empirische Voraussetzung/Objektivität)
+2. Eigenschaften der Figuren extrahieren, die ihn als Helden im Sinne der Bezeichner herausstellen. (Analyse)
+3. Eigenschaften labeln und definieren (dabei Reliabilität beachten)
+4. Quellen für jede Eigenschaft benennen (Wissenschaftlichkeit: Veriabilität).
+
+
+Vorgehensweise Helden:
+
+1. Figuren suchen, die als "Held" bezeichnet werden. ("primäre Helden", Objektivität)
+2. Figuren sammeln, die laut Definition als Helden bezeichnet werden können ("sekundäre Helden", Plausibilität)
+2. Eigenschaften zuweisen
+3. Prüfen, ob die aktuellen Eigenschaften die Herausstellungsmerkmale des Helden abdecken (Plausibilität)
+4. Eventuell Eigenschaften optimieren
+
+
+Vorgehensweise Heldkonzept:
+
+1. Definitionen von "Held" nachschlagen
+2. Eine Arbeitshypothese "Held" erstellen
+3. Eine Arbeitshypothese "Heldentypologie" erstellen
+
+
+Helden
+------
+
+§1 Helden
+1 Eine Figur ist ein Held, wenn sie werksimmanent als "Held" bezeichnet wird. (Primärheld)
+2 Eine Figur ist ein Held, wenn sie in der Sekundärliteratur als "Held" bezeichnet wird. (Sekundärheld)
+3 Eine Figur ist ein Held, wenn sie aufgrund ihrer Darstellung plausibel als "Held" bezeichnet werden kann. (Tertiärheld)
+
+§2 Eigenschaften
+1 Eine Eigenschaft ist eine heldische Eigenschaft, wenn sie werksimmanent dem Held als Herausstellungsmerkmal zugeschrieben wird. (Primäreigenschaft)
+2 Eine Eigenschaft ist eine heldische Eigenschaft, wenn sie in der Sekundärliteratur dem Held als Herausstellungsmerkmal zugeschrieben wird. (Sekundäreigenschaft)
+3 Eine Eigenschaft ist eine heldische Eigenschaft, wenn sie von möglichst vielen Helden, aber von deutlich weniger anderen Figuren geteilt wird. (Tertiäreigenschaft)
+
+Eigenschaften-Beschränkungen Ute:
+1 Keine Eigenschaft darf direkt mit einer anderen im Widerspruch stehen.
+2 Es muss Eigenschaften geben, die von allen Helden geteilt werden.
+3 Eigenschaften müssen kultur- und epochenneutral sein.
+
+Eigenschaften-Beschränkungen Sven:
+keine
+
+Wikipedia
+---------
+demigod
+display courage
+will for self sacrifice
+fights for greater good of another or all mankind
+great martial abilities
+moral excellence
+the circumstances of the hero's conception are unusual
+
+Propp'sche Helden:
+is being tested
+departs on a quest
+marries a princess
+
+Propp'sche Heldentypen:
+Seeker
+Victim-hero
+
+Byronic Hero:
+    Arrogant
+    Cunning and able to adapt
+    Cynical
+    Disrespectful of rank and privilege
+    Emotionally conflicted, bipolar, or moody
+    Having a distaste for social institutions and norms
+    Having a troubled past or suffering from an unnamed crime
+    Intelligent and perceptive
+    Jaded, world-weary
+    Mysterious, magnetic and charismatic
+    Seductive and sexually attractive
+    Self-critical and introspective
+    Self-destructive
+    Socially and sexually dominant
+    Sophisticated and educated
+    Struggling with integrity
+    Treated as an exile, outcast, or outlaw
+
+
+Heldentypen
+-----------
+
+"epischer Held"
+"ritterlicher Held"
+"Titelheld" / Hauptfigur / Protagonist 14ff / 73
+Idol / Vorbild
+"tragischer Held" (bei Shakespaere) 116 (Ödipus, Hamlet, Lear, MacBeth)
+tapferer Krieger
+"einsamer Held" 71ff 87
+"Antiheld"
+"romanistischer Held" (Archetyp)
+"Byronscher Held" 114
+"wandering outlaw" / "gloomy wanderer" / "noble outlaw" / "edler Rebell" 114/115
+"gothic villain" / "Hero of Sensibility" 115
+"Demigod" (griechischer Held)
+"Prince Charming" (Typus)
+"The youngest son"
+"Mythological King" (Archetyp)
+"Superhero"
+"Germanischer Held" (Beowulf)
+"Klassischer Held"
+
+Testhelden
+----------
+Odysseus
+Prinz Genji
+Väinämöinen
+Bilbo Beutlin
+Luke Skywalker
+Prinz Lír (Das letzte Einhorn)
+Aragorn
+Robin Hood
+Sherlock Holmes
+James Bond
+Hamlet
+Siegfried
+Beowulf
+Jesus
+Paul Atreides
+Achill
+König David
+Herkules
+Jason
+Conan
+Che Guevara
+Buddha
+Sir Gawein
+Lanzelot
+Gandhi
+Nelson Mandela
+Martin Luther King
+Garibaldi
+Galahad
+Friedrich der Große
+Napoleon
+Captain Sparrow
+Mulan (Disney)
+Mulan (Orginal)
+Bren
+Großmutter (Foreigner)
+Lucky Luke
+Superman
+Batman
+Churchill
+H.Bogart in Casablanca
+Indiana Jones
+Neil Armstrong
+Georg (Drachentöter)
+Dr. Who
+Daniel (Bibel)
+Moses
+Gilgamesch
+Ödipus
+
+
+
+Utes Held
+---------
+
+Kernkompetenz 1: Tod
+Kernkompetenz 2: Herkunft (Vaterlosigkeit)
+Kernkompetenz 3: Heldentat
+Kernkompetenz 4: Sozialverhalten (asozial)
+Kernkompetenz 5: Anhängerschaft
+Kernkompetenz 6: Verpflichtungen (frei davon)
+
+Sub 1: Übernatürlichkeit (Superkraft)
+Sub 2: Reise & Prüfungen
+Sub 3: Nicht intelektuell
+Sub 4: Großer Widersacher
+Sub 5: Selbstlosigkeit
+Sub 6: Begleiter (Guide)
+Sub 7: "Promi"
+Sub 8: loyal, aufrichtig
+
+

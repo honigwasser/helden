@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!DOCTYPE Eigenschaften [
+	<!ELEMENT Helden 
+		(Held)>
+	
+	<!ELEMENT Held
+		(eigenschaften)>
+	
+	<!ATTLIST Held name ID #REQUIRED>
+	
+	<!ELEMENT eigenschaften (#PCDATA)>
+]>
+
+<Helden>
+	<Held name="Beowulf">
+		<eigenschaften>dead sociallyChallenged warrior</eigenschaften>
+	</Held>	
+	
+	<Held name="Siegfried">
+		<eigenschaften>dead sociallyChallenged warrior</eigenschaften>
+	</Held>
+	
+	<Held name="Jesus">
+		<eigenschaften>dead twelveFollowers</eigenschaften>
+	</Held>
+	
+	<Held name="James Bond">
+		<eigenschaften>brave</eigenschaften>
+	</Held>
+</Helden>

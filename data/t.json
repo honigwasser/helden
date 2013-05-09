@@ -1,0 +1,109 @@
+{
+	"dead" :
+	{
+		"DE" : [ "tot", "Tod", "ist tot" ],
+		"EN" : [ "dead", "death", "is dead" ]
+	},
+	
+	"ununsualUpbringing" :
+	{
+		"DE" : [ "vaterlos", "Vaterprobleme", "ist unter ungewöhnlichen Umständen aufgewachsen" ],
+		"EN" : [ "fatherless", "Upbringing", "was brought up under unusual circumstances" ]
+	},
+	
+	"sociallyChallenged" :
+	{
+		"DE" : [ "sozial inkompetent", "Sozialleben", "ist sozial inkompetent" ]
+	},
+	
+	"superpowered" :
+	{
+		"DE" : [ "übermenschlich", "Übermensch", "hat übermenschliche Kräfte" ]
+	},
+	
+	"brave" :
+	{
+		"DE" : [ "tapfer", "Tapferkeit", "ist sehr tapfer" ]
+	},
+	
+	"admiringFollowers" :
+	{
+		"DE" : [ "bewundert", "Anhängerschaft", "hat Bewunderer" ]
+	},
+	
+	"freeFromObligations" :
+	{
+		"DE" : [ "unabhängig", "Unabhängigkeit", "ist frei von Verpflichtungen" ]
+	},
+	
+	"unaffiliated" :
+	{
+		"DE" : [ "ungebunden", "Ungebundenheit", "hat weder Familie noch Partner" ]
+	},
+	
+	"attractedByMonsters" :
+	{
+		"DE" : [ "monsteraffin", "Monsteraffinität", "ist sehr monsteraffin" ]
+	},
+	
+	"twelveFollowers" :
+	{
+		"DE" : [ "12", "12", "hat genau 12 Begleiter oder Jünger" ]
+	},
+	
+	"adversary" :
+	{
+		"DE" : [ "Widersacher", "Widersacher", "hat einen mächtigen Gegner" ]
+	},
+	
+	"challengedAndTempted" :
+	{
+		"DE" : [ "herausgefordert", "Prüfungen", "muss Prüfungen bestehen" ]
+	},
+	
+	"warrior" :
+	{
+		"DE" : [ "kämpferisch", "Krieger", "ist eine Kämpfernatur" ]
+	},
+	
+	"nobleBirth" : 
+	{
+		"DE" : [ "adelig", "Adel", "ist von edler Geburt" ]
+	},
+	
+	"heroicDeeds" :
+	{
+		"DE" : [ "Heldentaten", "Heldentaten", "macht heldenhafte Dinge" ]
+	},
+	
+	"deathDefying" :
+	{
+		"DE" : [ "todesmutig", "Todesmut", "setzt sein/ihr Leben bedingungslos aufs Spiel" ]
+	},
+	
+	"selfDenying" :
+	{
+		"DE" : [ "selbstlos", "Selbstlosigkeit", "handelt nicht selbstsüchtig" ]
+	},
+	
+	"upright" :
+	{
+		"DE" : [ "aufrichtig", "Aufrichtigkeit", "ist moralisch integer" ]
+	},
+	
+	"loyal" :
+	{
+		"DE" : [ "loyal", "Loyalität", "ist treu" ]
+	},
+	
+	"intellectuallyChallenged" : 
+	{
+		"DE" : [ "unreflektiert", "Zweifel", "reflektiert sein Verhalten nicht"]
+	},
+	
+	"sidekick" :
+	{
+		"DE" : [ "Knappe", "Begleiter", "hat einen treuen Begleiter" ]
+	}
+	
+}

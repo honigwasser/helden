@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!DOCTYPE Eigenschaften [
+	<!ELEMENT Eigenschaften 
+		(Eigenschaft)>
+	
+	<!ELEMENT Eigenschaft
+		(title, text, auth*)>
+	
+	<!ATTLIST Eigenschaft label ID #REQUIRED>
+	
+	<!ELEMENT title (#PCDATA)>
+	
+	<!ELEMENT text (#PCDATA)> 
+	
+	<!ELEMENT auth (ref, quote?)>
+	
+	<!ELEMENT ref (#PCDATA)>
+	
+	<!ELEMENT quote (#PCDATA)>
+]>
+
+<Eigenschaften><!-- Byron'sche Helden -->
+
+
+	<Eigenschaft label="arrogant">
+		<title>Der Held ist arrogant</title>
+		<text>Der Held ist arrogant. Er ist überheblich.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="cunning">
+		<title>Der Held ist gerissen</title>
+		<text>Der Held ist gerissen, er ist schlau, er passt sich an, er durchschaut Muster und macht sie sich zu Nutze.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="cynical">
+		<title>Der Held ist zynisch</title>
+		<text>Der Held ist zynisch. Er würdigt seine Mitmenschen herab. Er lässt an ihnen kein gutes Haar.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="disrespectful">
+		<title>Der Held zeigt keinen Respekt</title>
+		<text>Der Held zeigt keinen Respekt gegenüber dem Alter, dem Rang, den Privilegien oder der Macht seines Gegenübers.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="emotionallyConflicted">
+		<title>Der Held ist innerlich zerissen</title>
+		<text>Der Held ist emotional labil, er ist innerlich zerissen, er ist launisch und unberechenbar.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="dislikesNorms">
+		<title>Der Held lehnt verbindliche Regeln ab</title>
+		<text>Der Held hat eine deutliche Abneigung gegenüber sozialen Institutionen und Normen. Er missbilligt allgemein verboindliche Regeln und ihre Durchsetzung. Er hat ein Problem mit Autoritäten.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="troubledPast">
+		<title>Der Held hat eine fragwürdige Vergangenheit</title>
+		<text>Dem Helden ist in der Vergangenheit etwas widerfahren, was ihn nachhaltig geprägt hat. Diese Ereignisse liegen im Dunkeln oder kommen nur mühsam ans Tageslicht oder werden vom Helden zurückgehalten oder verdrängt. Der Held leidet unter seiner Vergangenheit oder sie ist zumindest ein wesentlichr Motivationsfaktor für sein Handeln.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="intelligent">
+		<title>Der Held ist intelligent</title>
+		<text>Der Held hat ein helles Köpfchen. Er ist intelligent. Er hat eine gute Wahrnehmung, er kann die Motive und Absichten seiner Umgebung erkennen.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="worldWeary">
+		<title>Der Held hat die Welt satt</title>
+		<text>Der Held ist vom Leben und von seinen Mitmenschen enttäuscht. Er erwartet von ihm und ihnen keine Erlösung, keine Besserung, keine Heilung.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="mysterious">
+		<title>Der Held ist mysteriös</title>
+		<text>Der Held ist eine mysteriöse, geheimnisvolle Figur. Er gibt den anderen Rätsel auf. Er hat eine beinahe schon magische Aura.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="seductive">
+		<title>Der Held ist verführerisch</title>
+		<text>Der Held hat eine erotische Ausstrahlung, er ist verführerisch. Er schafft es, Leute um den Finger zu wickeln, andere verfallen ihm.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="introspective">
+		<title>Der Held ist intravertiert</title>
+		<text>Der Held ist übermäßig selbstkritisch. Er zweifelt, er denkt viel, er beschäftigt sich viel mit seinem Taten, seinen Motiven, seinen Gründen.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="dominant">
+		<title>Der Held ist dominant</title>
+		<text>Der Held ist sozial oder sexuell dominant. Er diktiert, wie der Hase läuft, er sagt, wo es lang geht. Sein Wille zählt.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="educated">
+		<title>Der Held ist hoch gebildet</title>
+		<text>Der Held ist belesen, er ist hoch gebildet. Er hat Manieren, er weiß sich zu benehmen, zumindest wenn er es wollte.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="outcast">
+		<title>Der Held ist ein Ausgestoßener</title>
+		<text>Der Held ist ein Ausgestoßener, ein Vogelfreier, ein Fremder, ein Wegelagerer, ein Schurke, ein Verbannter.</text>
+	</Eigenschaft>
+	
+	
+</Eigenschaften>

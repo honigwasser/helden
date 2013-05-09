@@ -1,0 +1,43 @@
+{ 
+	"files" :
+	{
+		"Helden" : "Helden.xml",
+		"Eigenschaften" : "Eigenschaften.xml"
+	},
+	
+	"paths" :
+	{
+		"xml" : "data/",
+		"translations" : "data/"
+	},
+	
+	"base" : "~sommerfs/Helden/",
+	
+	"filter" :
+	{
+		"Eigenschaften" :
+		{
+			"Ute" :
+			[
+				"dead",
+				"ununsualUpbringing",
+				"heroicDeeds",
+				"sociallyChallenged",
+				"admiringFollowers",
+				"freeFromObligations",
+				"superpowered",
+				"challengedAndTempted",
+				"intellectuallyChallenged",
+				"adversary",
+				"selfDenying",
+				"sidekick",
+				"nobleBirth",
+				"upright"
+			]
+		}
+	}
+	
+	
+	
+}
+ 

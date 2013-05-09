@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- UTF-8 //-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		
+		<title>Helden</title>
+
+		<link rel="stylesheet" href="css/Helden.css" type="text/css" />
+		<link rel="stylesheet" href="css/tablesorter.css" type="text/css" />
+		
+		<!-- JQuery //-->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+		<!-- JQuery Core Plugins //-->
+		<script type="text/javascript" src="js/jquery.color/jquery.color.js"></script>
+		<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+
+		<script type="text/javascript" src="js/MyDesign.js"></script>
+
+		<script type="text/javascript" src="js/Held.class.js"></script>
+		<script type="text/javascript" src="js/Eigenschaft.class.js"></script>
+		<script type="text/javascript" src="js/MyXhr.class.js"></script>
+		<script type="text/javascript" src="js/MyHashMap.class.js"></script>
+
+		<script type="text/javascript" src="js/ErrorHandler.js"></script>
+		<script type="text/javascript" src="js/FileHandler.js"></script>
+		<script type="text/javascript" src="js/formular.js"></script>
+
+		<script type="text/javascript" src="js/HeldManager.js"></script>
+		<script type="text/javascript" src="js/EigenschaftManager.js"></script>
+
+		<script type="text/javascript" src="js/HeldenView.plugin.js"></script>
+		<script type="text/javascript" src="js/HeldenEdit.plugin.js"></script>
+		
+		<script type="text/javascript" src="js/Main.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready
+			(
+				function()
+				{
+
+
+					$("section[id=helden]").viewHelden();
+					$("section[id=neue]").editHelden();
+
+					
+					$("section").each
+					(
+						function()
+						{
+							new tile( $(this) )
+						}
+					);
+					
+
+					$("input").each
+					(
+						function()
+						{
+							new inputfield( $(this) )
+						}
+					);
+					
+					$("form").each
+					(
+						function()
+						{
+							new form( $(this) )
+						}
+					)
+					
+					$(".tablesorter").tablesorter();
+					
+
+				}
+			)
+			
+		</script>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Helden</h1>
+		</header>
+		
+		<form name="helden" action="" method="post">
+			<section id="helden">
+				<header>
+					<h2>Heldenübersicht</h2>
+				</header>
+				
+			</section>
+			
+			<section id="neue">
+				<header>
+					<h2>Einen neuen Helden eintragen</h2>
+				</header>
+			</section>
+		</form>
+
+	</body>
+	
+</html>

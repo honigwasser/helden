@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!DOCTYPE Eigenschaften [
+	<!ELEMENT Eigenschaften 
+		(Eigenschaft)>
+	
+	<!ELEMENT Eigenschaft
+		(title, text, auth*)>
+	
+	<!ATTLIST Eigenschaft label ID #REQUIRED>
+	
+	<!ELEMENT title (#PCDATA)>
+	
+	<!ELEMENT text (#PCDATA)> 
+	
+	<!ELEMENT auth (ref, quote?)>
+	
+	<!ELEMENT ref (#PCDATA)>
+	
+	<!ELEMENT quote (#PCDATA)>
+]>
+
+<Eigenschaften><!-- Antihelden -->
+
+	<Eigenschaft label="lonesome">
+		<title>Der Held ist einsam</title>
+		<text>Der Held ist einsam, er ist alleine. Er ist isoliert oder ein Außenseiter.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="passive">
+		<title>Der Held ist passiv</title>
+		<text>Der Held muss zum Handeln bedrängt werden. Er würde es lieber lassen. Der Ereignisse veranlassen ihn zum Handeln, er setzt sie nicht willentlich und gewollt in Gang.</text>
+	</Eigenschaft>
+
+	<Eigenschaft label="sceptical">
+		<title>Der Held ist kritisch</title>
+		<text>Der Held ist kritisch bis ablehnend eingestellt gegenüber der Gesellschaft. Er traut dem Braten nicht. Er ist vorsichtig.</text>
+	</Eigenschaft>
+
+	<Eigenschaft label="melancholic">
+		<title>Der Held ist melancholisch</title>
+		<text>Der Held ist melancholisch. Er resigniert. Er ist immer kurz vorm Aufgeben oder er hängt trüben Gedanken nach.</text>
+	</Eigenschaft>
+
+	<Eigenschaft label="failure">
+		<title>Der Held scheitert</title>
+		<text>Der Held hat etwas von einem Verlierer. Er muss immer wieder Rückschläge einstecken.</text>
+	</Eigenschaft>
+	
+</Eigenschaften>

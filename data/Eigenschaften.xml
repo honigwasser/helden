@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!DOCTYPE Eigenschaften [
+	<!ELEMENT Eigenschaften 
+		(Eigenschaft)>
+	
+	<!ELEMENT Eigenschaft
+		(title, text, auth*)>
+	
+	<!ATTLIST Eigenschaft label ID #REQUIRED>
+	
+	<!ELEMENT title (#PCDATA)>
+	
+	<!ELEMENT text (#PCDATA)> 
+	
+	<!ELEMENT auth (ref, quote?)>
+	
+	<!ELEMENT ref (#PCDATA)>
+	
+	<!ELEMENT quote (#PCDATA)>
+]>
+
+<Eigenschaften>
+
+	<Eigenschaft label="dead">
+		<title>Der Held ist tot</title>
+		<text>Der Held ist in Ausübung seiner Heldentaten gestorben oder aufgrund seines Heldseins getötet oder durch einen Widersacher, durch Verrat, Hinterlist, Betrug ermordert oder in einem heldenhalften Kampf getötet worden. Altersschwäche zählt nicht dazu. Vgl. Siegfried (Mord), Beowulf (Monster)</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="ununsualUpbringing">
+		<title>Der Held ist unter ungewöhnlichen Umständen aufgewachsen</title>
+		<text>Der Held ist unter ungewöhnlichen Umständen aufgewachsen, er ist ein Findelkind oder nicht bei seinen Eltern aufgewachsen, wurde früh von seinen Eltern getrennt oder kennt seinen Vater nicht oder wächst ohne ihn auf oder wird von Verwandten, Stiefeltern oder ganz Fremden aufgezogen. Vgl. Moses (Korb)</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="sociallyChallenged">
+		<title>Der Held ist sozial inkompetent</title>
+		<text>Der Held ist sozial inkompetent. Er fällt aus dem Rahmen, er ist ein Außenseiter, ein Freak, er passt nicht in seine Umgebung, er fügt sich nicht ein. Oder der Held ist naiv, hat kein Gespür für das soziale Gefüge, er eckt an. Damit ist NICHT gemeint, dass er eine anti-soziale Persönlichkeit besitzt, da solche Menschen in der Regel ein sehr gutes Gespür für ihre soziale Umgebung besitzen, die sie zu ihren Zwecken auszunutzen verstehen. </text>
+	</Eigenschaft>
+
+	<Eigenschaft label="intellectuallyChallenged">
+		<title>Der Held ist nicht der Hellste</title>	
+		<text>Der Held ist kein Denker. Er reflektiert sein Handeln, seine Motive und sein Verhalten kaum. Grübeln ist nicht sein Stärke. Pläne schmiedet er nur insofern sie für das Erreichen seiner Ziele ihm sinnvoll erscheinen. Er zweifelt nicht.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="superpowered">
+		<title>Der Held verfügt über übermenschliche Kräfte</title>
+		<text>Der Held verfügt über übernatürliche oder übermenschliche Kräfte oder Fähigkeiten. Dabei spielt es keine Rolle, ob diese Kräfte inhärente Eigenschaften seiner Person sind oder ihm von übernatürlichen Mächten zugebilligt werden. Vgl. Simon (Haare)</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="maverick">
+		<title>Der Held ist ein Einzelgänger</title>
+		<text>Der Held ist ein Einzelgänger. Er arbeitet vorwiegend allein. Er sucht nicht nach Unterstützung oder Hilfe. Wenn es hart auf hart kommt, steht der Held alleine dar. Er ist seine Aufgabe dort weiterzumachen, wo andere aufhören.</text>
+	</Eigenschaft>
+
+	<Eigenschaft label="sidekick">
+		<title>Der Held hat einen treuen Begleiter</title>
+		<text>Der Held hat einen treuen Begleiter, einen Freund, einen Kameraden, ein Tier, welches ihm zur Seite steht. Der Begleiter ist ken Held selbst, schafft es jedoch, den Helden vor der ein oder anderen Gefahr zu warnen oder ihm aus der Patsche zu helfen.</text>
+	</Eigenschaft>
+		
+	<Eigenschaft label="irrational">
+		<title>Der Held handelt irrational</title>
+		<text>Der Held handelt nicht unbedingt logisch. Er wägt nicht das Für und Wider seines Handels ab, er handelt einfach. Für ihn ist es keine Frage, was er tun muss. Er ist unbeirrbar und unbelehrbar. Er ist nicht intellektuell. Nachdenken ist nicht seine Stärke.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="brave">
+		<title>Der Held ist tapfer</title>
+		<text>Der Held ist wagemutig. Er ist tapfer. Er verzagt nicht.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="admiringFollowers">
+		<title>Der Held hat Bewunderer</title>
+		<text>Der Held wird bewundert. Er wird angehimmelt. Der Held genießt die Bewunderung durch seine Anhänger oder fühlt sich durch sie bestätigt. Auf Kritiker und Gegner reagiert er empfindlich.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="freeFromObligations">
+		<title>Der Held ist frei von gesellschaftlichen Verpflichtungen</title>
+		<text>Der Held ist unabhängig. Er hat keine sozialen Verpflichtungen. Er ist niemandem Rechenschaft schuldig, ausgenommen vielleicht höheren Mächten oder Auftraggebern, denen er sich freiwillig verpflichtet fühlt. Er ist frei, Heldentaten zu begehen.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="unaffiliated">
+		<title>Der Held ist persönlich ungebunden</title>
+		<text>Der Held ist persönlich ungebunden. Er hat keine Familie, für die er sorgen muss oder will. Er hat keine Frau (Mann), keine Kinder, für die er ein Vater (eine Mutter) ist.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="attractedByMonsters">
+		<title>Der Held ist sehr monsteraffin</title>
+		<text>Der Held sucht die Gefahr oder die Gefahr sucht ihn. Er wendet sich Aufgaben zu, die ein besonnener Mensch ablehnen würde. Finstere oder übernatürliche Mächte werden auf ihn aufmerksam.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="twelveFollowers">
+		<title>Der Held hat genau 12 Anhänger</title>
+		<text>Der Held hat genau 12 Jünger, Anhänger, Gefolgsleute oder Gruppen, die ihm folgen oder für ihn eintreten oder zu seinen engsten Vertrauten oder Verbündeten zählen.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="adversary">
+		<title>Der Held hat einen Gegenspieler</title>
+		<text>Es gibt eine Macht, die oder einen Feind, einen Gegner, der offen oder heimlich gegen den Helden arbeitet, ihn zu hintergehen oder irrezuführen versucht.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="challengedAndTempted">
+		<title>Der Held muss Prüfungen bestehen</title>
+		<text>Der Held besteht Abenteuer. Der Held begibt sich auf eine Reise. Der Held wird herausgefordert, er wird provoziert. Ihm werden Aufgaben auferlegt, er muss Prüfungen bestehen. Die Prüfungen betreffen seine körperliche Stärke, seine Ausdauer, seine Gewandheit, seine Geschicklichkeit, seinen Erfindungsreichtum, sein Cleverness, sein Wissen oder seine moralische Integrität, seine Loyalität, seine Tugend. </text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="warrior">
+		<title>Der Held ist ein großer Krieger</title>
+		<text>Der Held ist ein Krieger. Er kämpft, entweder gegen reale oder imaginäre Gegner. Er zieht in den Kampf, ob mit Waffen oder mit Witz. Es ist sein Job.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="nobleBirth">
+		<title>Der Held ist von edler Geburt</title>
+		<text>Der Held ist von edler Geburt oder er stammt aus einer Königsfamilie oder ist das Kind oder der Nachfahre von übernatürlichen Wesen. Dabei spielt es keine Rolle, ob er dies weiß oder nicht. </text>
+	</Eigenschaft>
+
+	<Eigenschaft label="heroicDeeds">
+		<title>Der Held macht heldenhafte Dinge</title>
+		<text>Der Held macht heldenhafte Dinge. Er besiegt Monster, rettet Jungfrauen, befreit Unterdrückte, erobert Länder, überwindet den Tod etc. Das Übliche halt.</text>
+	</Eigenschaft>
+	
+	<Eigenschaft label="deathDefying">
+		<title>Der Held setzt sein Leben bedingungslos aufs Spiel</title>
+		<text>Der Held setzt sein Leben bedingungslos aufs Spiel. Der Tod ist sein ständiger Begleiter.</text>
+		<auth>
+			<ref>Busse 30f. in: Busse, Templin 2000</ref>
+			<quot>Das eigene Leben bidungslos zu riskieren ist demnach conditio sine qua non für die Auszeichnung vor anderen, ist die höchste Anforderungen an den Helden; ohne Einsatz des Lebens gibt es kein Heldentum, wer Held sein will, für den ist der Tod ständiger Begleiter.</quot>
+		</auth>
+	</Eigenschaft>
+
+	<Eigenschaft label="selfDenying">
+		<title>Der Held handelt nicht selbstsüchtig</title>
+		<text>Der Held handelt nicht selbstsüchtig. Er ist nicht an der Vergrößerung seines persönlichen Ruhmes oder Besitzes interessiert. Seinen Vorteil reflektiert er wenig.</text>
+		<auth>
+			<ref>Busse 32f. in: Busse, Templin 2000</ref>
+		</auth>
+	</Eigenschaft>
+
+	<Eigenschaft label="upright">
+		<title>Der Held handelt aufrichtig</title>
+		<text>Der Held ist eine moralisch integre Person. Er handelt nicht bewusst unmoralisch. Er ist aufrichtig und ehrlich. Er intrigiert und hintergeht nicht.</text>
+		<auth>
+			<ref>Busse 32f. in: Busse, Templin 2000</ref>
+		</auth>
+	</Eigenschaft>
+	
+	<Eigenschaft label="loyal">
+		<title>Der Held ist treu</title>
+		<text>Der Held ist treu. Er ist loyal gegenüber denjenigen, denen er sich verbunden oder verpflichtet fühlt. Er verrät seine Freunde, Verbündeten, Herren nicht.</text>
+		<auth>
+			<ref>Busse 34ff. in: Busse, Templin 2000</ref>
+		</auth>
+	</Eigenschaft>
+	
+</Eigenschaften>
